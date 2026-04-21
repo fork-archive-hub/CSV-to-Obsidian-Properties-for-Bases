@@ -141,8 +141,7 @@ See [`sample-accounts.csv`](sample-accounts.csv) for a ready-to-use test file.
 - No server, no backend, no install
 
 ## Caveats & Disclaimers
-- Not all property types are supported by this tool. For more types, review see the [Property Types documention on Obisidian's published Help Vault].
-- I am not a programmer / software engineer/ coder, etc.
+- Not all property types are supported by this tool. For more types, review see the [Property Types documention on Obisidian's published Help Vault](https://obsidian.md/help/properties)
 
 ## Credits
 
