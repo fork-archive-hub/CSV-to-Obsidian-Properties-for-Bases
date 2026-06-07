@@ -1,6 +1,7 @@
 <h1>🗂️ Obsidian Note Generator</h1>
 <p>A lightweight, offline-capable browser tool that converts CSV or TSV spreadsheet data into Obsidian-ready <code>.md</code> files with YAML frontmatter — one file per row, downloaded as a ZIP.</p>
 <p>No install. No account. No internet required once saved locally. Open the HTML file and go.</p>
+<blockquote><p><strong>Need to go the other way?</strong> Try the companion tool <strong><a href="https://bases-to-csv.netlify.app/">Bases to CSV</a></strong> — a web app that takes a folder of Markdown files and exports a single <code>.csv</code> you can open back in Excel. Handy as an escape hatch if Obsidian ever breaks, since an Obsidian Base is really just a YAML view/query definition — the actual data lives in each note's frontmatter, not in the Base itself — so there's no built-in way to get a plain spreadsheet back out.</p></blockquote>
 <hr>
 <h2>Screenshots</h2>
 <h3>1. CSV Input — paste or drop your file</h3>
@@ -93,6 +94,15 @@ to:
 <ul>
 <li>Not all property types are supported by this tool. For more types, review see the <a href="https://obsidian.md/help/properties">Property Types documention on Obisidian's published Help Vault</a>.</li>
 </ul>
+<h2>Companion Tool — Bases to CSV</h2>
+<p>This tool gets data <strong>into</strong> Obsidian. Its companion, <strong><a href="https://bases-to-csv.netlify.app/">Bases to CSV</a></strong>, gets it back <strong>out</strong>:</p>
+<ul>
+<li>Point it at a folder of Markdown files and it generates a single <code>.csv</code> file.</li>
+<li>Useful as a fallback for when you want your data back in Excel — for example if Obsidian breaks or you're migrating away.</li>
+<li>An Obsidian Base file is just a YAML definition of filters, formulas, and views — the actual data lives in each note's frontmatter, not in the Base. So there's otherwise no straightforward built-in way to export everything as one flat spreadsheet. This tool fills that gap.</li>
+</ul>
+<p>🔗 <strong><a href="https://bases-to-csv.netlify.app/">bases-to-csv.netlify.app</a></strong></p>
+<hr>
 <h2>Credits</h2>
 <ul>
 <li><strong><a href="https://claude.ai">Claude</a> by Anthropic</strong> — designed and built entirely through conversation, including the HTML, CSS, JavaScript, date parsing, and this README</li>

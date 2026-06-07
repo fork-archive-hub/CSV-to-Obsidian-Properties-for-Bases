@@ -4,6 +4,8 @@ A lightweight, offline-capable browser tool that converts CSV or TSV spreadsheet
 
 No install. No account. No internet required once saved locally. Open the HTML file and go.
 
+> **Need to go the other way?** Try the companion tool **[Bases to CSV](https://bases-to-csv.netlify.app/)** — a web app that takes a folder of Markdown files and exports a single `.csv` you can open back in Excel. Handy as an escape hatch if Obsidian ever breaks, since an Obsidian Base is really just a YAML view/query definition — the actual data lives in each note's frontmatter, not in the Base itself — so there's no built-in way to get a plain spreadsheet back out.
+
 ---
 
 ## Screenshots
@@ -142,6 +144,18 @@ See [`sample-accounts.csv`](sample-accounts.csv) for a ready-to-use test file.
 
 ## Caveats & Disclaimers
 - Not all property types are supported by this tool. For more types, review see the [Property Types documention on Obisidian's published Help Vault](https://obsidian.md/help/properties)
+
+## Companion Tool — Bases to CSV
+
+This tool gets data **into** Obsidian. Its companion, **[Bases to CSV](https://bases-to-csv.netlify.app/)**, gets it back **out**:
+
+- Point it at a folder of Markdown files and it generates a single `.csv` file.
+- Useful as a fallback for when you want your data back in Excel — for example if Obsidian breaks or you're migrating away.
+- An Obsidian Base file is just a YAML definition of filters, formulas, and views — the actual data lives in each note's frontmatter, not in the Base. So there's otherwise no straightforward built-in way to export everything as one flat spreadsheet. This tool fills that gap.
+
+🔗 **[bases-to-csv.netlify.app](https://bases-to-csv.netlify.app/)**
+
+---
 
 ## Credits
 
